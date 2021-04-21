@@ -1,0 +1,35 @@
+{
+  "name": "toreti/trader",
+  "description": "Functions to help your trades.",
+  "license": "MIT",
+  "keywords": [
+    "trader",
+    "rsi"
+  ],
+  "authors": [
+    {
+      "name": "Felipe Torretto",
+      "email": "toreti@gmail.com"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "toreti\\trader\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  }
+}
